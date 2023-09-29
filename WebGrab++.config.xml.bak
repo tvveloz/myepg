@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files_0.zip -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!-- for siteini's that need a decrypt_userkey-->
+  <decryptkey site="site-name">decrypt_userkey</decryptkey>
+  <!-- add the correct license id values in the next line -->
+  <license wg-username="your webgrab+plus username" registered-email="your registered email address" password="your license password">f</license>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>0</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+			or https://github.com/SilentButeo2/webgrabplus-siteinipack/tree/master/siteini.pack
+  -->
+  
+  <channel update="i" site="netcombo.com.br" site_id="407##animal_planet" xmltv_id="Animal Planet">Animal Planet</channel>
+  <channel update="i" site="meuguia.tv" site_id="APL" xmltv_id="Animal Planet HD">Animal Planet HD</channel>
+ <channel update="i" site="clarotv.com.br" site_id="23_#_421" xmltv_id="Discovery Channel 4K">Discovery Channel 4K</channel>
+ <channel update="i" site="clarotv.com.br" site_id="11_#_421" xmltv_id="Discovery Channel 4K">Discovery Channel 4K</channel>
+ <channel update="i" site="meuguia.tv" site_id="HEA" xmltv_id="Discovery H&H 4K">Discovery H&H 4K</channel>
+ <channel update="i" site="clarotv.com.br" site_id="11_#_438" xmltv_id="Discovery H&H HD">Discovery H&H HD</channel>
+ 
+ 
+</settings>
